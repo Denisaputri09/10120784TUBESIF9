@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Nim : 10120784
+    Nama : Denisa Alyaa Putri
+    Kelas : IF-9 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splashscreen"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="250dp"
+        app:srcCompat="@drawable/splsh" />
+
+</RelativeLayout>
